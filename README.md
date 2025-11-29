@@ -257,7 +257,3 @@ Performance tests account for real-world constraints like RPC rate limiting, pro
    ```bash
    ./deploy-to-server.sh
    ```
-
-**Program ID**: `6QcjKRkeDfA1vQUMGc4eQUFoDTX7snoZZSA1N1SUdb4Z`  
-**Network**: Solana Devnet  
-**Status**: ✅ Production Ready
