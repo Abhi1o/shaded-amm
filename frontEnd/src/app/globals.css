@@ -1,0 +1,427 @@
+@import "tailwindcss";
+@source "../**/*.{js,ts,jsx,tsx}";
+@import "../styles/animations.css";
+@import "../styles/glassmorphism.css";
+
+:root {
+  /* Dark Theme with Purple Primary */
+  --color-background: #0a0a0f;
+  --color-foreground: #ffffff;
+
+  /* Primary Purple Color */
+  --color-primary: #6E54FF;
+  --color-primary-dark: #5640E6;
+  --color-primary-light: #8B74FF;
+  --color-primary-glow: rgba(110, 84, 255, 0.3);
+
+  /* Dark Surface Colors */
+  --color-surface: #13131a;
+  --color-surface-light: #1a1a24;
+  --color-surface-lighter: #24242f;
+
+  /* Text Colors */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b4b4c8;
+  --color-text-muted: #808099;
+
+  /* Border Colors */
+  --color-border: rgba(110, 84, 255, 0.1);
+  --color-border-light: rgba(255, 255, 255, 0.05);
+
+  /* Glass Colors */
+  --glass-bg: rgba(19, 19, 26, 0.6);
+  --glass-border: rgba(110, 84, 255, 0.2);
+}
+
+body {
+  color: var(--color-text-primary);
+  background: var(--color-background);
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-optical-sizing: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Source Code Pro font utility classes - Primary Font */
+.font-source-code-pro {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-extralight {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 200;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-light {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 300;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-regular {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 400;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-medium {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 500;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-semibold {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 600;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-bold {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 700;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-extrabold {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 800;
+  font-optical-sizing: auto;
+}
+
+.font-source-code-pro-black {
+  font-family: var(--font-source-code-pro), 'Source Code Pro', monospace;
+  font-weight: 900;
+  font-optical-sizing: auto;
+}
+
+/* Chakra Petch font utility classes - For number inputs */
+.font-chakra-petch {
+  font-family: var(--font-chakra-petch), sans-serif;
+}
+
+.font-chakra-petch-light {
+  font-family: var(--font-chakra-petch), sans-serif;
+  font-weight: 300;
+}
+
+.font-chakra-petch-regular {
+  font-family: var(--font-chakra-petch), sans-serif;
+  font-weight: 400;
+}
+
+.font-chakra-petch-medium {
+  font-family: var(--font-chakra-petch), sans-serif;
+  font-weight: 500;
+}
+
+.font-chakra-petch-semibold {
+  font-family: var(--font-chakra-petch), sans-serif;
+  font-weight: 600;
+}
+
+.font-chakra-petch-bold {
+  font-family: var(--font-chakra-petch), sans-serif;
+  font-weight: 700;
+}
+
+/* Apple-like smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Premium glassmorphism effects with purple accent */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-dark {
+  background: rgba(10, 10, 15, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--glass-border);
+}
+
+/* Premium gradient text with purple theme */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Purple gradient variants */
+.gradient-purple {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+}
+
+.gradient-purple-reverse {
+  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+}
+
+.gradient-purple-dark {
+  background: linear-gradient(135deg, var(--color-primary-dark) 0%, var(--color-primary) 100%);
+}
+
+/* Background gradients for pages */
+.bg-purple-radial {
+  background: radial-gradient(circle at 50% 50%, rgba(110, 84, 255, 0.15), transparent 50%);
+}
+
+.bg-purple-radial-top {
+  background: radial-gradient(circle at 80% 20%, rgba(139, 116, 255, 0.2), transparent 50%);
+}
+
+.bg-purple-radial-bottom {
+  background: radial-gradient(circle at 20% 80%, rgba(86, 64, 230, 0.15), transparent 50%);
+}
+
+/* Primary button styles */
+.btn-primary {
+  background: linear-gradient(to right, var(--color-primary) 0%, var(--color-primary-light) 100%);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, var(--color-primary-light) 0%, var(--color-primary) 100%);
+  transform: scale(1.05);
+}
+
+/* Hero text gradient */
+.text-gradient-hero {
+  background: linear-gradient(to right, #e9d5ff 0%, #d8b4fe 50%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Section title gradient */
+.text-gradient-section {
+  background: linear-gradient(to right, #d8b4fe 0%, var(--color-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Smooth transitions */
+* {
+  transition-timing-function: cubic-bezier(0.25, 0.4, 0.25, 1);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Touch-friendly interactions */
+  .touch-manipulation {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Responsive table utilities */
+  .table-responsive {
+    overflow-x: auto;
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
+  @media (min-width: 640px) {
+    .table-responsive {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .table-responsive table {
+    min-width: 100%;
+  }
+  
+  /* Mobile-friendly scrollbar */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: var(--color-surface);
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 3px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-dark);
+  }
+  
+  /* Custom scrollbar for token selector */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  @media (min-width: 768px) {
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 8px;
+    }
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: var(--color-surface);
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--color-primary);
+    border-radius: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-light);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:active {
+    background: var(--color-primary-dark);
+  }
+  
+  /* Ensure smooth momentum scrolling on mobile */
+  .custom-scrollbar {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Notification animations */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out;
+}
+
+/* Progress animations */
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+.animate-progress {
+  animation: progress 2s ease-in-out infinite;
+}
+
+/* Mobile-optimized focus styles */
+@media (hover: none) and (pointer: coarse) {
+  button:focus,
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+/* Accessibility Features */
+
+/* High Contrast Mode */
+.high-contrast {
+  --color-background: #000000;
+  --color-foreground: #ffffff;
+}
+
+.high-contrast button,
+.high-contrast input,
+.high-contrast select,
+.high-contrast textarea {
+  border-width: 2px;
+}
+
+.high-contrast a {
+  text-decoration: underline;
+}
+
+/* Reduced Motion */
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Font Size Adjustments */
+html[data-font-size="large"] {
+  font-size: 112.5%; /* 18px base */
+}
+
+html[data-font-size="xlarge"] {
+  font-size: 125%; /* 20px base */
+}
+
+/* Screen Reader Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Focus Visible Styles */
+*:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Keyboard Navigation Indicators */
+.keyboard-user *:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Skip to content link */
+#main-content {
+  scroll-margin-top: 4rem;
+}

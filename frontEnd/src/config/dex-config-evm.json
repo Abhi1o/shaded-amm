@@ -1,0 +1,103 @@
+{
+  "network": "RiseChain Testnet",
+  "chainId": 11155931,
+  "rpcUrl": "https://testnet.riselabs.xyz",
+  "blockExplorer": "https://explorer.testnet.riselabs.xyz",
+  "deployer": "0x004566C322f5F1CBC0594928556441f8D38EA589",
+  "factory": "0xa0Bb5eaDE9Ea3C8661881884d3a0b0565921aE48",
+  "tokens": [
+    {
+      "symbol": "USDC",
+      "name": "USD Coin",
+      "address": "0x1D4a4B63733B36400BFD388937F5bE6CBd5902cb",
+      "decimals": 18
+    },
+    {
+      "symbol": "USDT",
+      "name": "Tether USD",
+      "address": "0x2250AD5DE3eCb3C84CC0deBbfaE145E5B99835Cd",
+      "decimals": 18
+    },
+    {
+      "symbol": "DAI",
+      "name": "Dai Stablecoin",
+      "address": "0xAdE16eAbd36F0E9dea4224a1C27FA973dDe78d43",
+      "decimals": 18
+    }
+  ],
+  "pools": [
+    {
+      "name": "USDC/USDT-1",
+      "pairName": "USDC/USDT",
+      "address": "0x36A3950Ed31A2875dA4df2588528BDA6d9F4709A",
+      "tokenA": "0x1D4a4B63733B36400BFD388937F5bE6CBd5902cb",
+      "tokenB": "0x2250AD5DE3eCb3C84CC0deBbfaE145E5B99835Cd",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "USDT",
+      "shardNumber": 1,
+      "initialLiquidity": "100.0",
+      "chainId": 11155931
+    },
+    {
+      "name": "USDC/USDT-2",
+      "pairName": "USDC/USDT",
+      "address": "0x28784E66A02Eee695086Cd05F67d9B9866AA68F0",
+      "tokenA": "0x1D4a4B63733B36400BFD388937F5bE6CBd5902cb",
+      "tokenB": "0x2250AD5DE3eCb3C84CC0deBbfaE145E5B99835Cd",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "USDT",
+      "shardNumber": 2,
+      "initialLiquidity": "500.0",
+      "chainId": 11155931
+    },
+    {
+      "name": "USDC/USDT-3",
+      "pairName": "USDC/USDT",
+      "address": "0x7C68ebB44C1EA6CF3c48F12AB8BF77BD5A834Db7",
+      "tokenA": "0x1D4a4B63733B36400BFD388937F5bE6CBd5902cb",
+      "tokenB": "0x2250AD5DE3eCb3C84CC0deBbfaE145E5B99835Cd",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "USDT",
+      "shardNumber": 3,
+      "initialLiquidity": "1000.0",
+      "chainId": 11155931
+    },
+    {
+      "name": "USDC/DAI-1",
+      "pairName": "USDC/DAI",
+      "address": "0xD80bAf05268B9c8eF662ce14D5D92860CF3D3B90",
+      "tokenA": "0x1D4a4B63733B36400BFD388937F5bE6CBd5902cb",
+      "tokenB": "0xAdE16eAbd36F0E9dea4224a1C27FA973dDe78d43",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "DAI",
+      "shardNumber": 1,
+      "initialLiquidity": "200.0",
+      "chainId": 11155931
+    },
+    {
+      "name": "USDC/DAI-2",
+      "pairName": "USDC/DAI",
+      "address": "0xA2eb11c134e58B9fD423b9e5C66B990C15D484D5",
+      "tokenA": "0x1D4a4B63733B36400BFD388937F5bE6CBd5902cb",
+      "tokenB": "0xAdE16eAbd36F0E9dea4224a1C27FA973dDe78d43",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "DAI",
+      "shardNumber": 2,
+      "initialLiquidity": "800.0",
+      "chainId": 11155931
+    }
+  ],
+  "multiShardStats": {
+    "totalShards": 5,
+    "usdcUsdtShards": 3,
+    "usdcDaiShards": 2,
+    "demonstratesMultiShardArchitecture": true
+  },
+  "testResults": {
+    "successfulSwaps": 3,
+    "totalSwapTests": 3,
+    "allShardsInitialized": true,
+    "multiShardRoutingTested": true,
+    "smallestShardSelectionDemonstrated": true
+  }
+}

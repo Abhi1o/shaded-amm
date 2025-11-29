@@ -1,0 +1,253 @@
+{
+  "network": "devnet",
+  "rpcUrl": "https://api.devnet.solana.com",
+  "programId": "6QcjKRkeDfA1vQUMGc4eQUFoDTX7snoZZSA1N1SUdb4Z",
+  "payer": "3192e7asquzj5KwXgjer1CfWKGBK8Y5ECo3qWjsjNfVc",
+  "tokens": [
+    {
+      "symbol": "USDC",
+      "displaySymbol": "USDC",
+      "name": "USD Coin",
+      "mint": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v/logo.png"
+    },
+    {
+      "symbol": "SOL",
+      "displaySymbol": "SOL",
+      "name": "Wrapped SOL",
+      "mint": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png"
+    },
+    {
+      "symbol": "USDT",
+      "displaySymbol": "USDT",
+      "name": "Tether USD",
+      "mint": "F7CVt32PGjVCJo7N4PS4qUzXVMBQBj3iV4qCVFdHgseu",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB/logo.svg"
+    },
+    {
+      "symbol": "ETH",
+      "displaySymbol": "ETH",
+      "name": "Wrapped Ethereum",
+      "mint": "7K7yLbVHtvcP6zUk6KCCyedDLFuLdNu1eawvsL13LPd",
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/2FPyTwcZLUg1MDrwsyoP4D6s1tM7hAkHYRjkNb5w6Pxk/logo.png"
+    }
+  ],
+  "pools": [
+    {
+      "poolAddress": "DtSqAzu4bzXByKTo9tZEcBgjQ5SFzuSbPnNN49KUCn2V",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "50000",
+      "liquidityB": "500",
+      "shardNumber": 1,
+      "authority": "AGm4eQRGK6QcFEfbfWcLvtjw8ZMe4mYqyjpwBVmZTJYA",
+      "poolTokenMint": "6LyVeH6DaGyWHnA1EYAXw84TKGgp82HPcumbfqQnoe4a",
+      "feeAccount": "E9uv9CgUyV2aT18HQBZKrn8vf5MNr6HkfAtJcuNesmmp",
+      "tokenAccountA": "99gGALJZHcJ5KtLzJBCeyi2tconVNbAhmFp8rXTCz1MS",
+      "tokenAccountB": "egYV17RbdcXnomyZPAiMYWWaKEZmzxPQAMjxaAkMfEz",
+      "deployedAt": "2025-10-30T18:31:13.627Z"
+    },
+    {
+      "poolAddress": "ATSKt5pbr7gAd56RUVxqzJjohQzh1Q2jNzaPN6qdd8J3",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "100000",
+      "liquidityB": "1000",
+      "shardNumber": 2,
+      "authority": "GEw7GHM5aeMRBE1n4xrhPRv1EvUf8WFNgjwDCd1P9GeB",
+      "poolTokenMint": "9rH2GXtDCqLk6pxSNPBgayi96FWUUv74d4mUCYeYowCm",
+      "feeAccount": "CZyYz1jy6Y69LfrZUSm7HSN6LsdwK649UqAcfaz2P5cA",
+      "tokenAccountA": "AFDzPD7fTi3NNN8WViiSYUoVFgbuu8YmH1EbYiKwtHvu",
+      "tokenAccountB": "97bgdiDjtxhfwWBk8Zx5sjmcFfQRn93mj7tPZAq7SEgS",
+      "deployedAt": "2025-10-30T18:31:23.213Z"
+    },
+    {
+      "poolAddress": "Dx3G4spNjYmRuUnB8fUziaADWBFedfm5RMtNP8KBVnpG",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "200000",
+      "liquidityB": "2000",
+      "shardNumber": 3,
+      "authority": "JCZVVvQtQhv8gMedgfd7Pc7WfmMxydG1GfYjkZQ4NsUt",
+      "poolTokenMint": "8mmSpyheZWikYsLYwaBjSagFy3LH35JW7RMbp4Mg12wR",
+      "feeAccount": "8TiSXNRevNMimP3mekD2q4s2Dw6qxxoycEKu1uD2kSsx",
+      "tokenAccountA": "751RFTj9HEJMiboUWnumLDkj9Moyuox9Gv36CstsDv3q",
+      "tokenAccountB": "26WTHcLo6UtxtnoMUwPBh1LN9juuZuY6p7w5P5D9aoEy",
+      "deployedAt": "2025-10-30T18:31:33.138Z"
+    },
+    {
+      "poolAddress": "DDPtBRGoS4tSHcvguQgseX2SoZVM2JgrEyVgkDMPfrVr",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "400000",
+      "liquidityB": "4000",
+      "shardNumber": 4,
+      "authority": "FzetzxAnmvRNvzMPRvdbFsR8prUUM2iQkyvSLRgR4QFL",
+      "poolTokenMint": "8em8SRLhqSTf5rnFLSd9S7nCf9E1fFXS4kTRFTNDx72R",
+      "feeAccount": "DgaQak9mRixV84gW5iB7JHwXSk6Rv3hibkuNyu3tBzKM",
+      "tokenAccountA": "472MPWcAD4f44iiKhhEm9pK4wMtbwLCHYaj7Tf3FbwAn",
+      "tokenAccountB": "7CiP9j79Eayk3T3LC9LgHBcjPqg96XrCL3YievcehNuP",
+      "deployedAt": "2025-10-30T18:31:43.413Z"
+    },
+    {
+      "poolAddress": "SaRT3ZFpAbsFUSixKgwULFURsv2Nc7xf1qUxEfQxvCJ",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "F7CVt32PGjVCJo7N4PS4qUzXVMBQBj3iV4qCVFdHgseu",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "USDT",
+      "liquidityA": "100000",
+      "liquidityB": "100000",
+      "shardNumber": 1,
+      "authority": "7fJbemAtZgFDggYa77FGjywFGVEHHZkNaNvQ1XzcNoiT",
+      "poolTokenMint": "AZz1iMfAuo2y1inFtbAJTLtiXHQ3DtH6qrw9LbAVKMfm",
+      "feeAccount": "7uKfawmxcwvXNcjUBPkxUYPpbiv4jBDePghFuuo88huY",
+      "tokenAccountA": "BepLyV2nTMZXo12i8w8J9H6zmmn3UaLUUcvrD6JQyqf1",
+      "tokenAccountB": "6RjnNRPkt2tiw9pCxKWrjMexyiCrbTaR4xrMgKLfBhwD",
+      "deployedAt": "2025-10-30T18:31:57.660Z"
+    },
+    {
+      "poolAddress": "7Ts15uqAYRcjgeMT1XqU14AwgGkQ9cW4TQcKLuM7ZNzM",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "F7CVt32PGjVCJo7N4PS4qUzXVMBQBj3iV4qCVFdHgseu",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "USDT",
+      "liquidityA": "200000",
+      "liquidityB": "200000",
+      "shardNumber": 2,
+      "authority": "2UeL87AeXREnKaoTC1CSwHFyRqXVEEiD32naJDTtdbC1",
+      "poolTokenMint": "4zTdWbppYihHpp3masXMLi5BS3qZBGEGisBVMdxxaY4C",
+      "feeAccount": "8gDN6XxgzHaXhQHqj56rM3GxxWeJon53PF8jx3a97UEY",
+      "tokenAccountA": "Cpq7DYNXpWft6ESwZCkZhRsSpHcqdtrej5Na69oMfadf",
+      "tokenAccountB": "BDSfrZEbXHUHVcWcxhWfve4m3nZh3UbKFsnsN7ptLJU9",
+      "deployedAt": "2025-10-30T18:32:13.441Z"
+    },
+    {
+      "poolAddress": "12b3vuFrdm7c8993Q1RMCQM4D2x5xERHMiSdWap4mdLa",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "F7CVt32PGjVCJo7N4PS4qUzXVMBQBj3iV4qCVFdHgseu",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "USDT",
+      "liquidityA": "400000",
+      "liquidityB": "400000",
+      "shardNumber": 3,
+      "authority": "FSW1vncRZa2g2qrzFBLt3R6xS7LxYuXQ51YKyP9vvECA",
+      "poolTokenMint": "Bt5YgiAeJi6197xNzxESytSxauUNFpgQBfG2cTBx5M11",
+      "feeAccount": "3hNVNAgaEu5gzpLMcaufyrbtwrEnQniRDz8TyarhsT7e",
+      "tokenAccountA": "3v7mgdY8GnK6BE2Yx4DcAvZWcRWiYMqmwvoZUvr3ixD1",
+      "tokenAccountB": "6CZ5oA5py4nXbG385rVZvscXv46o4T5p2gaTMwrxwunh",
+      "deployedAt": "2025-10-30T18:32:22.443Z"
+    },
+    {
+      "poolAddress": "EyBaC9wCz8STE31iFW9EBVfcNi4rbZukvFKVkdAJbaS7",
+      "tokenA": "BJYyjsX1xPbjL661mozEnU2vPf5gznbZAdGRXQh9Gufa",
+      "tokenB": "F7CVt32PGjVCJo7N4PS4qUzXVMBQBj3iV4qCVFdHgseu",
+      "tokenASymbol": "USDC",
+      "tokenBSymbol": "USDT",
+      "liquidityA": "800000",
+      "liquidityB": "800000",
+      "shardNumber": 4,
+      "authority": "9auBYW6crfi9fzkzAmbcurkRcTXftL8zNMrvHmsJ2uYp",
+      "poolTokenMint": "CdYo5EiVnBb8SZ2gi7oDuxdBD6E87ZnjxxGTWZmZVk7X",
+      "feeAccount": "59hSEhqg1Z4GSs8bpWy2kdidMrpE2QCKADP9wCSQC72V",
+      "tokenAccountA": "BMn8zu9yr4pzBwusMnLeSBAeydGLRnD3M1EXKZVnBpXS",
+      "tokenAccountB": "AjEMRSosDEHQhvto61A4RDKqQjgYKvn7HhBVf4BzA82n",
+      "deployedAt": "2025-10-30T18:32:32.882Z"
+    },
+    {
+      "poolAddress": "J8ZKqtV244arQNDkwh7yuqxhDJ9rR2T3Hu6pHdrvJLFg",
+      "tokenA": "7K7yLbVHtvcP6zUk6KCCyedDLFuLdNu1eawvsL13LPd",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "ETH",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "100",
+      "liquidityB": "5000",
+      "shardNumber": 1,
+      "authority": "GyK85UiZZTa6uCz3eT8Xxbtcs7fF92nasZhWjtDZn9TD",
+      "poolTokenMint": "4ASw67MCz4ncqjugmypK6XGkzbuH72BfTH48kNLLFew5",
+      "feeAccount": "9P6SvNCm1uvbAPe7By2VjQR4rxZHymeCb5edH7AjCi45",
+      "tokenAccountA": "CoFrT1qdva7AdTA9dc5Pg3Ld9WV756RPFfx1Sx8WYNt4",
+      "tokenAccountB": "EJvuwVCfyHPMpo82ds7dQXAkxvGkWkXmy5kBoZnpR6N3",
+      "deployedAt": "2025-10-30T18:32:43.735Z"
+    },
+    {
+      "poolAddress": "GAs3N81SEkqGb19B5kvN5jJy2YEqt8o7Cs2aJWFvres7",
+      "tokenA": "7K7yLbVHtvcP6zUk6KCCyedDLFuLdNu1eawvsL13LPd",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "ETH",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "200",
+      "liquidityB": "10000",
+      "shardNumber": 2,
+      "authority": "2FkW1Wqt2zLMYxMPTPveASkRqbMMHjXZHm5pyuR6fPZo",
+      "poolTokenMint": "7F8vzaSHy4NoFwz1iTDew1t8CThQEmtYWvDKGfe65e4x",
+      "feeAccount": "zSsx5Ve3ZLnTYrzDtfYWkyBHM4zrv8dZDauPSCueyD2",
+      "tokenAccountA": "9WNpEpfEPh1vW1pZtesnGebQD2rWwnwgyfFEPJCSL4kN",
+      "tokenAccountB": "Cc4EQAicu8B6t9oQk9788jQoTiAfTkvxdXdbTjUUQiNJ",
+      "deployedAt": "2025-10-30T18:32:53.731Z"
+    },
+    {
+      "poolAddress": "C6WczCDRkPTxyboLS39oeufTbi2gEmj6vhmiwgLmcFSo",
+      "tokenA": "7K7yLbVHtvcP6zUk6KCCyedDLFuLdNu1eawvsL13LPd",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "ETH",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "400",
+      "liquidityB": "20000",
+      "shardNumber": 3,
+      "authority": "AHySA1i1KhdMMQJD5uk8kEKbqHuqZmE8DkjVDZLRuELy",
+      "poolTokenMint": "CgAwxCLa1uSGYszSpaTgSoyrpQKJ5XmxXEc4kF4Wmymq",
+      "feeAccount": "HoaL6vSNFxdaKcS1Dhjk7uoPF9tcep7jsM61bmmq1LWN",
+      "tokenAccountA": "C6zDAUXbraf3pcKLmfLGgWcwJmsmjjPerZWDrKbkc32n",
+      "tokenAccountB": "FvkKidc443NmUL214E7y4cFnR2cjeLqHeztkyf3RtsT7",
+      "deployedAt": "2025-10-30T18:33:03.751Z"
+    },
+    {
+      "poolAddress": "CncabWzSHCPxBJ7kkdFBnCBBQHBe6HU1AbdUSDPF4KoD",
+      "tokenA": "7K7yLbVHtvcP6zUk6KCCyedDLFuLdNu1eawvsL13LPd",
+      "tokenB": "7YGTPNq1Xw1AWt4BfDqd82DAvmyNLEC1RdHzJX9PDB5r",
+      "tokenASymbol": "ETH",
+      "tokenBSymbol": "SOL",
+      "liquidityA": "800",
+      "liquidityB": "40000",
+      "shardNumber": 4,
+      "authority": "31p54DF1evXkiYWC21ycNYkx94uAExFXPKVxwzzNa5md",
+      "poolTokenMint": "Ddw2HxxheMk7ruTjXhMKio5tA6obxqSUsoHRjbjEEJEr",
+      "feeAccount": "DM8cqp83pFch37mC9PjPgUDd9BMhZCz8FYy34G9f6u3t",
+      "tokenAccountA": "79bmkjVCS91MXjyNHhyVQgo196JaKCQre3dae1a8PeRG",
+      "tokenAccountB": "8voKH4aaZnn43xFkCGcCeYrN9iCrxL2CxxWMVtuxxWk9",
+      "deployedAt": "2025-10-30T18:33:15.876Z"
+    }
+  ],
+  "deployedAt": "2025-10-30T18:33:15.877Z",
+  "summary": {
+    "totalTokens": 4,
+    "totalPools": 12,
+    "pairs": [
+      {
+        "pair": "USDC/SOL",
+        "shards": 4
+      },
+      {
+        "pair": "USDC/USDT",
+        "shards": 4
+      },
+      {
+        "pair": "ETH/SOL",
+        "shards": 4
+      }
+    ]
+  }
+}
