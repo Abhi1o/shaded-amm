@@ -1,5 +1,16 @@
 # 🎯 SAMM - Sharded Automated Market Maker
 
+**Simulatuon** 
+https://cybertronprime.github.io/samm-visual/
+
+**Monad Deployment**
+https://monad-liard.vercel.app/swap
+
+**Research Paper**
+https://arxiv.org/abs/2406.05568
+
+<img width="692" height="533" alt="Screenshot 2025-11-29 at 6 10 05 PM" src="https://github.com/user-attachments/assets/dec8d8ec-a757-4762-8bda-68e33418a682" />
+
 A high-performance, sharded AMM implementation built on Solana's token-swap program with intelligent routing services.
 
 ## 🏗️ Architecture Overview
@@ -7,8 +18,6 @@ A high-performance, sharded AMM implementation built on Solana's token-swap prog
 ## 🔧 Key Modifications Made
 
 ### 1. SAMM Program Enhancements
-
-**File**: `token-swap/program/src/curve/constant_product.rs`
 
 **Changes**:
 - Fixed fee calculation precision issues
